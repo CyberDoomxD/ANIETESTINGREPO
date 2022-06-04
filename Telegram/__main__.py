@@ -27,6 +27,7 @@ from Telegram import (
     URL,
     log,
     telethn,
+    pbot,
     AnieINIT
 )
 # needed to dynamically load modules
@@ -721,4 +722,5 @@ def main():
 if __name__ == "__main__":
     log.info("[TELEGRAM] Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
+    pbot.start()
     threading.Thread(target=main).start()

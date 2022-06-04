@@ -4,7 +4,7 @@ import glob
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
 from Telegram.events import register
-from Telegram import telethn as tbot, ubot2
+from Telegram import telethn as tbot
 
 
 def mediainfo(media):

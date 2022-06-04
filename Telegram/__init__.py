@@ -154,7 +154,6 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient(MemorySession(), APP_ID, API_HASH)
 
 
-pbot = TelegramClient("Telegram", API_ID, API_HASH, TOKEN)
 dispatcher = updater.dispatcher
 
 

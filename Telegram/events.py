@@ -1,5 +1,5 @@
 from telethon import events
-from Telegram import telethn, ubot2 as ubot
+from Telegram import telethn
 
 
 def register(**args):
